@@ -24,7 +24,7 @@ space & [::Send ^#{left}
 space & ]::Send ^#{right}
 
 ; create a new windows vitual desktop
-space & =::Send ^#d
+space & \::Send ^#d
 
 ;  *** space + XX
 #if GetKeyState("space", "P")
